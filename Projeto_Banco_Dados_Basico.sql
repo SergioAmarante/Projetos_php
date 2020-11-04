@@ -1,0 +1,1 @@
+SELECT * FROM recode_sergio.pedidos;
