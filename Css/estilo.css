@@ -8,6 +8,16 @@ p {color:rgb(61, 18, 160);
    .clear-both{
     clear: both;
   }
+ 
+.navbar div ul li a {
+  color: yellowgreen !important;
+  margin: 5px;
+}
+
+.navbar div ul li a:hover {
+  color: #007BFF !important;
+}
+
 .tema
 {
  align-items: center; color: blueviolet;  font-style: bold;
@@ -52,11 +62,25 @@ p {color:rgb(61, 18, 160);
  }
    
 /*footer*/
-.menu 
-{ background-color: rgb(158, 164, 243);}
+.footer { 
+  background-color: rgb(158, 164, 243);
+}
 footer div {
  text-align: center;
 }
 footer div img {
  width: 200px;
 }
+
+/*Inicio edição formulario mensagem*/
+.formMensagem div h1 {
+    text-align: center;
+    color:rgb(61, 18, 160);
+}
+.imagemFormulario img {
+  align-items: center;
+  display:flex; 
+  text-align: center;
+  margin: 0 auto;
+}
+/*final edição formulario mensagem*/
